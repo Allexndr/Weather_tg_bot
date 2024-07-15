@@ -1,7 +1,7 @@
 import telebot
 import requests
 
-bot_token = '6157704275:AAEkB5xTV6iUr6i5Weh0meWgXb6r-njHTnY'  # Замените YOUR_BOT_TOKEN на токен вашего бота
+bot_token = ''  # Замените YOUR_BOT_TOKEN на токен вашего бота
 
 bot = telebot.TeleBot(bot_token)
 
