@@ -1,0 +1,85 @@
+### README на русском языке
+
+# Телеграм-бот для получения погоды
+
+## Описание
+
+Этот бот позволяет пользователям узнать текущую погоду в любом городе, введя его название. Бот использует API OpenWeatherMap для получения данных о погоде.
+
+## Установка
+
+1. Клонируйте репозиторий:
+   ```bash
+   git clone <URL вашего репозитория>
+   cd <название вашего репозитория>
+   ```
+
+2. Установите необходимые библиотеки:
+   ```bash
+   pip install pyTelegramBotAPI requests
+   ```
+
+3. Вставьте токен вашего бота и API ключ OpenWeatherMap в код:
+   ```python
+   bot_token = 'YOUR_BOT_TOKEN'  # Замените YOUR_BOT_TOKEN на токен вашего бота
+   api_key = "YOUR_API_KEY"  # Замените YOUR_API_KEY на свой ключ API OpenWeatherMap
+   ```
+
+## Использование
+
+1. Запустите бота:
+   ```bash
+   python bot.py
+   ```
+
+2. В Telegram начните чат с ботом и отправьте команду `/start` для приветственного сообщения.
+
+3. Отправьте команду `/weather <название города>`, чтобы узнать текущую погоду в этом городе.
+   Например:
+   ```plaintext
+   /weather London
+   ```
+
+---
+
+### README in English
+
+# Telegram Weather Bot
+
+## Description
+
+This bot allows users to get the current weather in any city by entering its name. The bot uses the OpenWeatherMap API to fetch weather data.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <URL of your repository>
+   cd <name of your repository>
+   ```
+
+2. Install the required libraries:
+   ```bash
+   pip install pyTelegramBotAPI requests
+   ```
+
+3. Insert your bot token and OpenWeatherMap API key into the code:
+   ```python
+   bot_token = 'YOUR_BOT_TOKEN'  # Replace YOUR_BOT_TOKEN with your bot's token
+   api_key = "YOUR_API_KEY"  # Replace YOUR_API_KEY with your OpenWeatherMap API key
+   ```
+
+## Usage
+
+1. Run the bot:
+   ```bash
+   python bot.py
+   ```
+
+2. In Telegram, start a chat with the bot and send the `/start` command to receive a welcome message.
+
+3. Send the `/weather <city name>` command to get the current weather in that city.
+   For example:
+   ```plaintext
+   /weather London
+   ```
